@@ -17,34 +17,3 @@ LN = input("Enter the Second name: ")
 FLN = FN + " " + LN
 print("Hello " + FLN + "! Welcome to python program")
 
-## Basic Mathematical Operations in Python
-
-## 📋 Description
-This simple Python program takes **two numbers** as input from the user and performs basic mathematical operations:
-- Addition
-- Subtraction
-- Multiplication
-- Division (with handling for division by zero)
-
-## 🧑‍💻 Code Overview
-```python
-A = float(input("Enter the 1st number: "))
-B = float(input("Enter the 2nd number: "))
-
-def basicOps(a, b):
-    add = a + b
-    sub = a - b
-    mul = a * b
-    if b != 0:
-        div = a / b
-    else:
-        div = "Undefined (cannot divide by zero)"
-    
-    print("\nThe basic math operations:")
-    print("Addition:", add)
-    print("Subtraction:", sub)
-    print("Multiplication:", mul)
-    print("Division:", div)
-
-basicOps(A, B)
-
